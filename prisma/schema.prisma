@@ -19,4 +19,5 @@ model User {
   username String
   password String
   phoneId  String
+  isVerified Boolean @default(false)
 }
